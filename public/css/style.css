@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One&display=swap');
+body {
+    padding-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Francois One', sans-serif;
+}
+h3{
+    font-family: 'Francois One', sans-serif;
+}
+
+
+h4 {
+    font-family: 'Francois One', sans-serif;
+}
+
+.cardW3b {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    margin-top:5%;
+    text-align: center;
+    font-family: arial;
+}
+
+.priceD {
+    color: grey;
+    font-size: 22px;
+}
+.tipos-paquetes{
+  text-align: center;
+  margin-top: 5%;
+}
+.tipos-paquetes button{
+  border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(118, 119, 119);
+    text-align: center;
+    cursor: pointer;
+
+    font-size: 18px;
+}
+.tipos-paquetes button:hover{
+  background-color: rgb(179, 179, 179);
+}
+.tab button.active {
+  background-color: #ccc;
+}
+
+.cardW3b a {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(27, 177, 40);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    text-decoration: none;
+}
+.cardW3b .card-body{
+    width: 100%;
+}
+.cardW3b .sec1{
+    background: rgb(255, 211, 17);
+    color: white;
+}
+.cardW3b .sec2{
+  background: rgb(73,73,73);
+}
+.cardW3b .sec3{
+  background: rgb(228, 0, 0); 
+  color: white;
+}
+.cardW3b a:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.open-button {
+    background-color: rgb(231, 230, 138);
+    color: white;
+    padding: 5px 5px;
+    border-radius: 75px;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 50px;
+    right: 28px;
+    width: 100px;
+    margin-bottom: 2%;
+}
+
+.whats-button {
+    background-color: rgb(231, 230, 138);
+    color: white;
+    padding: 5px 5px;
+    border-radius: 75px;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 140px;
+    right: 28px;
+    width: 100px;
+    margin-bottom: 2%;
+}
+
+/* The popup form - hidden by default */
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+/* Add styles to the form container */
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Full-width input fields */
+
+.form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit/login button */
+
+.form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+
+.form-container .cancel {
+    background-color: rgb(190, 101, 66);
+}
+
+/* Add some hover effects to buttons */
+
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+}
+.comparacion img{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  max-width: 100%;
+  height: auto;
+  display:block;
+}
+  
+footer {
+    font-size: 11px;
+    z-index: 0;
+}
+
